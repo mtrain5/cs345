@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sixes's Catcher</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="icon" type="saturn.png" href="assests/saturn.png"> -->
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+  <body>
+    <div id="themenu-container" class="themenu-container">
+      <h1 class="game-title">Sixes's Catcher</h1>
+      <div class="buttons-container">
+          <button id="Startbutton">Start</button>
+          <button id="Quitbutton">Quit</button>
+          <button id="Settingsbutton" class="settingsbutton">Settings</button>
+          <audio id="playsound" src="assets/sounds/playerstart.mp3"></audio>
+          <audio id="quitsound" src="assets/sounds/wrong-buzzer-6268.mp3"></audio>
+          <audio id="combiningbleep" src="assets/sounds/bloop-2-186531.mp3"></audio>
+      </div>
+  </div>
+  <div id="goodbye-message" class=" goodbye-message">
+    <h2>Goodbye!</h2>
+  </div>
+  <div id="scoring" class="scoring"></div>
+
+
+
+    <script src="saveButton.js"></script>
+    <script src="ContainerDrawer.js"></script>
+    <script src="ball.js"></script>
+    <script src="SettingsButton.js"></script>
+    <script src="BallViewer.js"></script>
+    <script src="TimerSettings.js"></script>
+    <script src="SettingsMenu.js"></script>
+    <script src="ExitToMenuButton.js"></script>
+    <script src="Listener.js"></script>
+    <script src="game.js"></script>
+    <script src="sketch.js"></script>
+
+
+  </body>
+</html>

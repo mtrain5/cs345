@@ -1,0 +1,7 @@
+void keep_printing(){
+    print( "Have one person make some sort of change to the conflict.txt file, like adding a class comment with some content. This person can then save the file, stage it, commit it, and push it to the remote repository.")
+}
+
+Hello its emily
+hello it xkhadijat
+hello its marcus
